@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+}
+.navbar{
+    width: 100%;
+    height: 40px;
+    background: #000;
+}
+.icon{
+      width: 200px;
+      float: left;
+      height: 30px;
+      margin-left: 10px;
+      font-size: 16px;
+      margin-bottom: 5px;
+}
+.logo{
+      color: #fff;
+}
+.menu{
+      width: 200px;
+      height: 30px;
+      float: left;
+}
+.menu ul{
+    align-content: center;  
+    justify-content: center;
+    display: flex;
+}
+.menu ul li{
+      width: 100%;
+      font-size: 12px;
+      list-style: none;
+      margin-left: 52px;
+      padding-bottom: 5px;
+      color: #fff;
+      margin-top: 10px;
+}
+.menu ul li a{
+   text-decoration: none;
+   color: #fff;
+   font-family: Sans-Serif;
+   font-weight: bold;
+   transition: .5s ease-in-out;
+   cursor: pointer;
+}
+ul li a:hover{
+      color: red;
+}
+.main{
+      width: 200px;
+      margin-top: 20px;
+      position: relative;
+      float: left;
+      margin-left: 20px;
+      justify-content: center;
+}
+.main h1{
+      font-family: Times New Roman;
+      font-size: 40px;
+      color: #000;
+      font-weight: bold;
+}
+.main h3{
+      font-family: Tahoma;
+      font-size: 28px;
+      color: #fff;
+}
+.main .Joinus{
+      width: 150px;
+      height: 40px;
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      background: #000;
+      font-family: Sans-Serif;
+      margin-top: 5px;
+      text-align: center; 
+      margin-left: 20px;
+}
+.Joinus a{
+      text-decoration: none;
+      color: #fff;
+}
+.form{
+      background: linear-gradient(rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+      position: absolute;
+      margin-top: 25px;
+      height: 230px;
+      width: 250px;
+      border-radius: 10px;
+      margin-left: 70px;
+      justify-content: center;
+}
+.form h2{
+      padding: 10px 0 0;
+      color: #fff;
+      text-align: center;
+      border-bottom: 1px solid #fff;
+      font-size: 14px;
+}
+.form input{
+      width: 150px;
+      font-size: 14px;
+      color: #fff;
+      border: 2px solid #fff;
+      border-radius: 5px;
+      border-right: 0;
+      border-left: 0;
+      border-top: 0;
+      margin-top: 20px;
+      height: 28px;
+      justify-content: center;
+      background: transparent;
+      margin-left: 50px;
+}
+.form input:focus{
+      outline: none;
+}
+::placeholder{
+      color: #000;
+      font-family: Sans-Serif;
+      text-align: center;
+}
+.loginbtn{
+      width: 150px;
+      height: 25px;
+      margin-top: 5px;
+      background: #fff;
+      justify-content: center;
+      color: #000;
+      margin-left: 52px;
+      border-radius: 5px;
+      font-size: 12px;
+      transition: .5s ease-in-out;
+}
+.loginbtn a{
+      text-decoration: none;
+}
+.loginbtn:hover{
+      background: red;
+      color: #fff;
+}
+ .form .ca{
+       justify-content: center;
+       margin-top: 5px;
+       font-size: 13px;
+ } 
+ .form .ca p{
+       font-family: Sans-Serif;
+       color: #fff;
+       margin-left: 52px;
+ }
+.form .ca .linkbtn{
+       width: 150px;
+       height: 28px;
+       margin-left: 100px;
+       justify-content: center;
+ }
+.ca .linkbtn a{
+       text-decoration: none;
+       color: #000;
+ }
+ .services{
+       width: 200px;
+ }
+ .services .serv{
+       width: 100px;
+       margin-left: 140px;
+       font-family: Times New Roman;
+       margin-top: 20px;
+       font-size: 24px;
+ }
+ .services p{
+       width: 150px;
+       margin-left: 150px;
+       font-family: Sans-Serif;
+       color: red;
+       font-size: 18px;
+ }
+ .image-box{
+       float: left;
+       width: 50%;
+       border: 1px solid #dedede;
+       box-sizing: border-box;
+       padding: 10px;
+       margin: 10px;
+       margin-left: 110px;
+       box-shadow: 0 0 20px #000;
+ }
+ 
